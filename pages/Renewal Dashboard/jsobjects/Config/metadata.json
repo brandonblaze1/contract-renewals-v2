@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69f4e38caf382a4d9c06d00c_69e14aa4-1660-4323-8ecc-75b95fcb9712",
+  "id": "Renewal Dashboard_Config",
+  "unpublishedCollection": {
+    "name": "Config",
+    "pageId": "Renewal Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "API_BASE_URL",
+        "value": "\"http://100.121.102.112:3127\""
+      }
+    ]
+  }
+}
