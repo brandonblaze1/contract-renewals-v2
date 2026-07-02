@@ -1,0 +1,80 @@
+{
+  "id": "Renewal Dashboard_Config",
+  "pluginId": "js-plugin",
+  "pluginType": "JS",
+  "unpublishedCollection": {
+    "actions": [
+      {
+        "id": "Renewal Dashboard_Config.packetUrl",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "unpublishedAction": {
+          "actionConfiguration": {
+            "body": "packetUrl (runId) {\n\t\treturn this.API_BASE_URL + \"/api/renewals/runs/\" + runId + \"/packet\";\n\t}",
+            "jsArguments": [
+              {
+                "name": "runId"
+              }
+            ],
+            "timeoutInMillisecond": 10000
+          },
+          "clientSideExecution": true,
+          "confirmBeforeExecute": false,
+          "dynamicBindingPathList": [
+            {
+              "key": "body"
+            }
+          ],
+          "executeOnLoad": false,
+          "fullyQualifiedName": "Config.packetUrl",
+          "name": "packetUrl",
+          "pageId": "Renewal Dashboard",
+          "pluginId": "js-plugin",
+          "pluginType": "JS",
+          "runBehaviour": "MANUAL"
+        }
+      },
+      {
+        "id": "Renewal Dashboard_Config.downloadUrl",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "unpublishedAction": {
+          "actionConfiguration": {
+            "body": "downloadUrl (runId) {\n\t\treturn this.API_BASE_URL + \"/api/renewals/runs/\" + runId + \"/download\";\n\t}",
+            "jsArguments": [
+              {
+                "name": "runId"
+              }
+            ],
+            "timeoutInMillisecond": 10000
+          },
+          "clientSideExecution": true,
+          "confirmBeforeExecute": false,
+          "dynamicBindingPathList": [
+            {
+              "key": "body"
+            }
+          ],
+          "executeOnLoad": false,
+          "fullyQualifiedName": "Config.downloadUrl",
+          "name": "downloadUrl",
+          "pageId": "Renewal Dashboard",
+          "pluginId": "js-plugin",
+          "pluginType": "JS",
+          "runBehaviour": "MANUAL"
+        }
+      }
+    ],
+    "archivedActions": [],
+    "name": "Config",
+    "pageId": "Renewal Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "API_BASE_URL",
+        "value": "\"http://100.121.102.112:3127\""
+      }
+    ]
+  }
+}

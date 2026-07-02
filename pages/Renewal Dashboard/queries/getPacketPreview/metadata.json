@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/renewal-runs/{{tblRuns.selectedRow.id}}/packet",
+      "path": "/api/renewals/runs/{{tblRuns.selectedRow.id}}/packet",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -42,7 +42,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  navigateTo(\n    \"http://100.121.102.112:3127/api/renewals/runs/\" + \n    tblRuns.selectedRow.id + \n    \"/download\",\n    {},\n    \"NEW_WINDOW\"\n  ) \n}}",
+  "onClick": "{{ \n  navigateTo(\n    Config.downloadUrl(tblRuns.selectedRow.id),\n    {},\n    \"NEW_WINDOW\"\n  ) \n}}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,

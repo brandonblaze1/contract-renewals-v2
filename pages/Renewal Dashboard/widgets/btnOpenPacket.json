@@ -36,7 +36,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onClick": "{{\n  navigateTo(\n    \"http://100.121.102.112:3127/api/renewal-runs/\" + tblRuns.selectedRow.id + \"/packet\",\n    {},\n    \"NEW_WINDOW\"\n  )\n}}",
+  "onClick": "{{\n  navigateTo(\n    Config.packetUrl(tblRuns.selectedRow.id),\n    {},\n    \"NEW_WINDOW\"\n  )\n}}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
