@@ -42,7 +42,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  q_gen_run.run(() => {\n    showAlert(\"Packet generated for \" + tblRuns.selectedRow.owner_name, \"success\");\n    q_runs.run();\n    q_run.run();\n  }) \n}}",
+  "onClick": "{{ Renewals.generateRun() }}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,

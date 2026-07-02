@@ -36,7 +36,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  q_gen_preview.run(() => {\n    showAlert(\n      \"Preview complete: \" + q_gen_preview.data.count + \" run(s) ready.\",\n      \"success\"\n    );\n  }) \n}}",
+  "onClick": "{{ Renewals.previewGenerate() }}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
