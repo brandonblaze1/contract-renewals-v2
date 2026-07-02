@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "k4wacba1kb",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Month",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 20,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{ \n  q_runs.run();\n  q_queue.run();\n}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n  [\n    { label: \"January\", value: 1 },\n    { label: \"February\", value: 2 },\n    { label: \"March\", value: 3 },\n    { label: \"April\", value: 4 },\n    { label: \"May\", value: 5 },\n    { label: \"June\", value: 6 },\n    { label: \"July\", value: 7 },\n    { label: \"August\", value: 8 },\n    { label: \"September\", value: 9 },\n    { label: \"October\", value: 10 },\n    { label: \"November\", value: 11 },\n    { label: \"December\", value: 12 }\n  ]\n}}",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "n1582srv9s",
+  "widgetName": "selMonth"
+}

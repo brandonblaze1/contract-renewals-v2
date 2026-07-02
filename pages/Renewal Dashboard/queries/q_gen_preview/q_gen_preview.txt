@@ -1,0 +1,5 @@
+{
+  "renewal_year": {{ selYear.selectedOptionValue }},
+  "renewal_month": {{ selMonth.selectedOptionValue }},
+  "dry_run": true
+}

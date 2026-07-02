@@ -1,0 +1,4 @@
+{
+  "review_notes": {{ this.params?.review_notes || null }},
+  "internal_notes": {{ this.params?.internal_notes || null }}
+}

@@ -1,0 +1,5 @@
+{
+  "year": {{ Number(selYear.selectedOptionValue) }},
+  "month": {{ Number(selMonth.selectedOptionValue) }},
+  "dry_run": true
+}
