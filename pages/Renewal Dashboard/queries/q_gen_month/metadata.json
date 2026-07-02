@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"renewal_year\": {{ Number(selYear.selectedOptionValue) }},\n  \"renewal_month\": {{ Number(selMonth.selectedOptionValue) }},\n  \"dry_run\": false\n}",
+      "body": "{\n  \"renewal_year\": {{ selYear.selectedOptionValue }},\n  \"renewal_month\": {{ selMonth.selectedOptionValue }},\n  \"dry_run\": false\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
